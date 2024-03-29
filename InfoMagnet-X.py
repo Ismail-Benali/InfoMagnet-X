@@ -5,7 +5,7 @@
 #██║██║╚██╗██║██╔══╝  ██║   ██║██║╚██╔╝██║██╔══██║██║   ██║██║╚██╗██║██╔══╝     ██║╚════╝██╔██╗ 
 #██║██║ ╚████║██║     ╚██████╔╝██║ ╚═╝ ██║██║  ██║╚██████╔╝██║ ╚████║███████╗   ██║     ██╔╝ ██╗
 #╚═╝╚═╝  ╚═══╝╚═╝      ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝   ╚═╝     ╚═╝  ╚═╝  
-#               code by イスマエル・ベナリ 												  情報マグネットX
+#               code by イスマエル・ベナリ 	         	  情報マグネットX
 # 
 
 import requests
@@ -112,7 +112,8 @@ def gather_user_info():
         print("Close friends:")
         gather_twitter_friends(username)
         print("Checking tweets for threatening keywords:")
-        threatening_keywords = ["threat", "danger", "violence", "harassment", "assault", "kill"]
+        threatening_keywords = ["threat", "danger", "violence", "harassment", "assault", "kill", "Mujahidden", "mujahidden", "fighting", "killing",
+        "harm", "destroy", "attack", "ruin", "punish", "revenge", "intimidate", "sabotage", "menace", "blackmail", "assalt",]
         threatening_tweets = check_threatening_tweets(username, threatening_keywords)
         print("Checking for suspicious tweets:")
         suspicious_tweets = check_suspicious_tweets(username)
