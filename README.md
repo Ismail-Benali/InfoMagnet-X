@@ -1,7 +1,7 @@
 ![InfoMagnet-x](https://github.com/Ismail-Benali/InfoMagnet-X/assets/90980178/770d1fb6-e1b0-4f6f-9cd1-8df1d2e822f5)
 ---
 
-**InfoMagnet-X**
+#InfoMagnet-X
 
 **Description:**
 
@@ -30,7 +30,3 @@ The Twitter Intelligence Collector is a Python-based tool designed to gather inf
 **Note:**
 - Proper authentication with the Twitter API is required to use this tool.
 - Ensure compliance with Twitter's API terms of service and data usage policies.
-
----
-
-You can use this description as a basis for creating a README file for your GitHub repository, providing users with an overview of your tool's functionality and how to use it.
